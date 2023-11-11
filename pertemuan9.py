@@ -8,6 +8,7 @@ st.write("### Jakarta Barat")
 #kinerja
 st.metric("Kinerja", 40, -1)
 st.metric("Response Time", 30, 20)
+st.metric("Saham", 100, 20)
 
 #membuat pilihan
 pilih1 = st.checkbox('Ya')
