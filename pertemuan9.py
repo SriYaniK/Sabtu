@@ -1,11 +1,15 @@
 import streamlit as st
 
 st.title("Kuliah Praktikum Analisa Big Data Ekonomi")
-st.write("Sri Yani K")
-st.write("# Heading 1")
-st.write("## Heading 2")
-st.write("### Heading 3")
+st.write("# Sri Yani K")
+st.write("## Dosen FEB Universitas Trisakti")
+st.write("### Jakarta Barat")
 
+#kinerja
+st.metric("Kinerja", 40, -1)
+st.metric("Response Time", 30, 20)
+
+#membuat pilihan
 pilih1 = st.checkbox('Ya')
 pilih2 = st.checkbox('Tidak')
 
